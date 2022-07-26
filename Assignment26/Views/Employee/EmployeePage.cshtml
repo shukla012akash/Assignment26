@@ -1,0 +1,123 @@
+﻿
+<html>
+
+<head>
+
+    <title>Form</title>
+
+</head>
+
+<body style="background-color:lightgreen">
+
+    <center>
+    <div>
+
+        <h3>Please fill the registration form by clicking the registration link</h3>
+        
+    <section class="container mt-5">
+        <div class="row justify-content-md-center">
+            <form class="col-md-6 col-sm-12 bg-white p-5 rounded shadow">
+                <div class="col-12 text-center">
+                    <h3 class="text-primary"><strong>Register Now</strong></h3>
+                </div>
+                <div class="mb-3">
+                    <label for="fname" class="form-label">First Name</label>
+                    <input type="fname" class="form-control" id="fname">
+                    
+                </div>
+                
+                <div class="mb-3">
+                    <label for="lname" class="form-label">Last Name</label>
+                    <input type="lname" class="form-control" id="lname">
+                </div>
+                
+                
+                <div class="mb-3">
+                    <label for="mobile" class="form-label">Mobile</label>
+                    <input type="mobile" class="form-control" id="mobile">
+                </div>
+                
+                <div class="mb-3">
+                    <label for="address1" class="form-label">Address1</label>
+                    <input type="address1" class="form-control" id="address1">
+                </div>
+                
+                <div class="mb-3">
+                    <label for="address2" class="form-label">Address2</label>
+                    <input type="address2" class="form-control" id="address2">
+                </div>
+                
+                <div class="mb-3">
+                  <label for="inputCity">City</label>
+		          <select id="inputCity" class="form-control">
+                  <option selected>Choose...</option>
+                  <option>Delhi</option>
+                  <option>Mumbai</option>
+                  <option>Hydrabad</option>
+                  <option>LKO</option>
+
+                  <option>Bareilly</option>
+
+                   </select>
+
+                </div>
+                
+                <div class="mb-3">
+                    <label for="postalCode" class="form-label">PostalCode</label>
+                    <input type="postalCode" class="form-control" id="postalCode">
+                </div>
+                
+                <div class="mb-3">
+                    <label for="country" class="form-label">Country</label>
+                    <input type="country" class="form-control" id="country">
+                </div>
+                
+                
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="terms">
+                    <label class="form-check-label" for="terms">I agree terms and conditions.</label>
+                </div>
+                
+                <div class="text-center mt-3">
+                     
+                 <button type="submit" class="btn btn-primary" asp-area="" asp-controller="Employee" asp-action="Congratulation">Submit</button>                        
+                </div>
+                
+            </form>
+        </div>
+    </section>
+
+
+    </div>
+    <div>
+    <section class="">
+  <!-- Footer -->
+  <footer class="text-center text-white" style="background-color:orangered;">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: CTA -->
+      <section class="">
+        <p class="d-flex justify-content-center align-items-center">
+          <span class="me-3">Register for free</span>
+          <button type="button" class="btn btn-outline-light btn-rounded">
+            Sign up!
+          </button>
+        </p>
+      </section>
+      <!-- Section: CTA -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center modal-fullscreen-xl-down" style="background-color: lightpink;">
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+</section>
+</div>
+</center>
+</body>
+</html>
